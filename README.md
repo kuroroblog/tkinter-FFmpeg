@@ -18,5 +18,14 @@ Tkinterを使って、FFmpegをダウンロードする機構を作成する。
 8. `$ python cmd.py`を実行する。
 9. 動作確認を行う。
 
+# exeファイル化の流れ
+1. terminalを開く。
+2. `$ pip list`を実行する。(pyinstaller, pip, pyinstaller-hooks-contribが入っていることを確認) ないライブラリがある場合はpipでinstallする。
+3. 実行ファイルディレクトリ箇所へ移動する。(`$ cd /path_to/`)
+4. `pyinstaller xxx.py --onefile --clean --noconsole` を実行する。(xxx.pyはファイル名。pyinstallerのオプション詳細 : https://pyinstaller.readthedocs.io/en/stable/usage.html)
+5. distフォルダ内に存在する、cmdを実行する。
+6. TkinterのWindowが表示される。該当箇所へ値を入力し、「実行」ボタンを選択する。
+7. FFmpegがダウンロードされるか、確認する。
+
 # 結果画像
 <img width="1680" alt="screenshot 2021-07-28 19 14 33" src="https://user-images.githubusercontent.com/23373288/127305968-2a0938da-f2ba-427f-85f2-8402c857e266.png">
