@@ -36,6 +36,7 @@ class Application(tk.Frame):
             return
 
         subprocess.run(self.ffmDirectory.get() + ' ' + self.arg1.get() + ' ' + self.arg2.get() + ' ' + self.arg3.get() + ' ' + self.outputDir.get() + '/' + self.outputFile.get(), shell=True)
+        # messageboxについて : https://kuroro.blog/python/MQcodS4gkjZ4G7JYhQ9Q/
         messagebox.showinfo('完了しました。')
 
     def __init__(self, master=None):
