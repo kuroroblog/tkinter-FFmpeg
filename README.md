@@ -19,4 +19,4 @@ Tkinterを使って、FFmpegをダウンロードする機構を作成する。
 9. 動作確認を行う。
 
 # 結果画像
-<img width="1680" alt="screenshot 2021-07-28 10 24 53" src="https://user-images.githubusercontent.com/23373288/127248783-5bc95736-6c82-4530-9f65-a90919c4ac52.png">
+<img width="1680" alt="screenshot 2021-07-28 19 14 33" src="https://user-images.githubusercontent.com/23373288/127305968-2a0938da-f2ba-427f-85f2-8402c857e266.png">
