@@ -1,6 +1,12 @@
 # tkinter-FFmpeg
 Tkinterを使って、FFmpegをダウンロードする機構を作成する。
 
+# Croudworkの案件リンク
+・https://crowdworks.jp/public/jobs/6618056?ref=recommend_by_recent_activities#application_list
+
+# 仕様書
+
+
 # zipをダウンロードしてから動作確認する
 1. https://github.com/kuroroblog/tkinter-FFmpeg へアクセスする。
 2. 緑色の「Code」と書かれたボタンを選択
